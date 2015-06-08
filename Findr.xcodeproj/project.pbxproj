@@ -11,6 +11,7 @@
 		060AA4DB1B261C2200439684 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4DA1B261C2200439684 /* KeychainWrapper.m */; };
 		068771911B263C1B00F7DBAD /* WhatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068771901B263C1B00F7DBAD /* WhatVC.swift */; };
 		06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */; };
+		95B24870C5FEB010D59909B9 /* libPods-Findr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E324AB4208A117F2B2378CB9 /* libPods-Findr.a */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
 		9963923A1B251F9B00CC2A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996392381B251F9B00CC2A6D /* Main.storyboard */; };
@@ -18,7 +19,17 @@
 		9963923F1B251F9B00CC2A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */; };
 		9963924B1B251F9B00CC2A6D /* FindrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963924A1B251F9B00CC2A6D /* FindrTests.swift */; };
 		996392591B2520D100CC2A6D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392581B2520D100CC2A6D /* MapViewController.swift */; };
-		C3A5F412335E113BE1A5F69A /* libPods-Findr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E324AB4208A117F2B2378CB9 /* libPods-Findr.a */; };
+		99B471D11B264BE000A95099 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D01B264BE000A95099 /* AudioToolbox.framework */; };
+		99B471D31B264BE600A95099 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D21B264BE600A95099 /* CFNetwork.framework */; };
+		99B471D51B264BED00A95099 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D41B264BED00A95099 /* CoreGraphics.framework */; };
+		99B471D71B264BF200A95099 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D61B264BF200A95099 /* CoreLocation.framework */; };
+		99B471D91B264BF800A95099 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D81B264BF800A95099 /* MobileCoreServices.framework */; };
+		99B471DB1B264BFE00A95099 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DA1B264BFE00A95099 /* QuartzCore.framework */; };
+		99B471DD1B264C0300A95099 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DC1B264C0300A95099 /* Security.framework */; };
+		99B471DF1B264C0900A95099 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DE1B264C0900A95099 /* StoreKit.framework */; };
+		99B471E11B264C0F00A95099 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E01B264C0F00A95099 /* SystemConfiguration.framework */; };
+		99B471E31B264C1500A95099 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E21B264C1500A95099 /* libz.dylib */; };
+		99B471E51B264C1B00A95099 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E41B264C1B00A95099 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +45,6 @@
 /* Begin PBXFileReference section */
 		04A2F3FD744C2859D1A76BB0 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
 		060AA4D61B26112B00439684 /* ItemInfoBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemInfoBundle.swift; path = ../ItemInfoBundle.swift; sourceTree = "<group>"; };
-		060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
 		060AA4D91B261C2200439684 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		060AA4DA1B261C2200439684 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		068771901B263C1B00F7DBAD /* WhatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatVC.swift; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		996392491B251F9B00CC2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9963924A1B251F9B00CC2A6D /* FindrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindrTests.swift; sourceTree = "<group>"; };
 		996392581B2520D100CC2A6D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		99B471D01B264BE000A95099 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99B471D21B264BE600A95099 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		99B471D41B264BED00A95099 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99B471D61B264BF200A95099 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99B471D81B264BF800A95099 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		99B471DA1B264BFE00A95099 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99B471DC1B264C0300A95099 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99B471DE1B264C0900A95099 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99B471E01B264C0F00A95099 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		99B471E21B264C1500A95099 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		99B471E41B264C1B00A95099 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
 		E324AB4208A117F2B2378CB9 /* libPods-Findr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,7 +81,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A5F412335E113BE1A5F69A /* libPods-Findr.a in Frameworks */,
+				99B471E51B264C1B00A95099 /* libsqlite3.dylib in Frameworks */,
+				99B471E31B264C1500A95099 /* libz.dylib in Frameworks */,
+				99B471E11B264C0F00A95099 /* SystemConfiguration.framework in Frameworks */,
+				99B471DF1B264C0900A95099 /* StoreKit.framework in Frameworks */,
+				99B471DD1B264C0300A95099 /* Security.framework in Frameworks */,
+				99B471DB1B264BFE00A95099 /* QuartzCore.framework in Frameworks */,
+				99B471D91B264BF800A95099 /* MobileCoreServices.framework in Frameworks */,
+				99B471D71B264BF200A95099 /* CoreLocation.framework in Frameworks */,
+				99B471D51B264BED00A95099 /* CoreGraphics.framework in Frameworks */,
+				99B471D31B264BE600A95099 /* CFNetwork.framework in Frameworks */,
+				99B471D11B264BE000A95099 /* AudioToolbox.framework in Frameworks */,
+				95B24870C5FEB010D59909B9 /* libPods-Findr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +109,17 @@
 		57C9602C6B7F8D165FE8B607 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99B471E41B264C1B00A95099 /* libsqlite3.dylib */,
+				99B471E21B264C1500A95099 /* libz.dylib */,
+				99B471E01B264C0F00A95099 /* SystemConfiguration.framework */,
+				99B471DE1B264C0900A95099 /* StoreKit.framework */,
+				99B471DC1B264C0300A95099 /* Security.framework */,
+				99B471DA1B264BFE00A95099 /* QuartzCore.framework */,
+				99B471D81B264BF800A95099 /* MobileCoreServices.framework */,
+				99B471D61B264BF200A95099 /* CoreLocation.framework */,
+				99B471D41B264BED00A95099 /* CoreGraphics.framework */,
+				99B471D21B264BE600A95099 /* CFNetwork.framework */,
+				99B471D01B264BE000A95099 /* AudioToolbox.framework */,
 				E324AB4208A117F2B2378CB9 /* libPods-Findr.a */,
 			);
 			name = Frameworks;
@@ -104,6 +148,7 @@
 		996392311B251F9B00CC2A6D /* Findr */ = {
 			isa = PBXGroup;
 			children = (
+				996392341B251F9B00CC2A6D /* AppDelegate.swift */,
 				060AA4D61B26112B00439684 /* ItemInfoBundle.swift */,
 				996392361B251F9B00CC2A6D /* ViewController.swift */,
 				996392381B251F9B00CC2A6D /* Main.storyboard */,
@@ -112,6 +157,7 @@
 				068771901B263C1B00F7DBAD /* WhatVC.swift */,
 				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
 				996392321B251F9B00CC2A6D /* Supporting Files */,
+				99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */,
 			);
 			path = Findr;
 			sourceTree = "<group>";
@@ -122,9 +168,7 @@
 				060AA4D91B261C2200439684 /* KeychainWrapper.h */,
 				060AA4DA1B261C2200439684 /* KeychainWrapper.m */,
 				9963923B1B251F9B00CC2A6D /* Images.xcassets */,
-				996392341B251F9B00CC2A6D /* AppDelegate.swift */,
 				996392331B251F9B00CC2A6D /* Info.plist */,
-				060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -427,8 +471,76 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"Pods-Findr-Bolts\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -441,8 +553,76 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"Pods-Findr-Bolts\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
 			};
