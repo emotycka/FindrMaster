@@ -7,338 +7,187 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172784D1FA5E3BBC73CA2C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64045619635E48264ED9838D /* Foundation.framework */; };
-		1C6AFE21148C77A32859399D /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F42EB133DA71B2CF756BA2 /* BFCancellationTokenSource.h */; };
-		2D7F1A36F070F1F9D375DFCB /* BFAppLinkReturnToRefererController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A608CE936A2468A5484FE /* BFAppLinkReturnToRefererController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3122B9EF2766A39E8F074943 /* BFAppLinkNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = C960210168049B9B0ECA6BA3 /* BFAppLinkNavigation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		328D2464121979EEF95A823B /* BFAppLinkResolving.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E08CB63C3081DD2120DD6FB /* BFAppLinkResolving.h */; };
-		341F9F07148634DF38A3E3F3 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7EFAA433B178FC083A80F5 /* BFTask.h */; };
-		3B082C0F8F219A0D4C30F219 /* BFAppLinkReturnToRefererView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = BA780D7DEB062F3C4B548192 /* BFAppLinkReturnToRefererView_Internal.h */; };
-		41208D2360DACC81C3899E01 /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = CF47E0FBDD97B71AB313C4A0 /* BFAppLink.h */; };
-		45FF92725CE155183775058E /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D98826E351D28BAD442E405 /* Bolts.h */; };
-		488AABF287DE23E22565E46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64045619635E48264ED9838D /* Foundation.framework */; };
-		4D461D75ABA08EE7A7273F8A /* BFAppLinkReturnToRefererView.h in Headers */ = {isa = PBXBuildFile; fileRef = B084C32522891BBDEC3014EF /* BFAppLinkReturnToRefererView.h */; };
-		5296D6B7C16EDE04F9AEE205 /* BFCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = F8553BA79E9C3598091221E6 /* BFCancellationTokenRegistration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		531A3A6C6C417D4278816628 /* BFAppLinkNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 777EF96A8DCF88D9C2D6F421 /* BFAppLinkNavigation.h */; };
-		54BA476E8444D68DBEED725B /* BFAppLinkTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F15059F8A2C81080565C2568 /* BFAppLinkTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		66782690074D27CFA7F4A882 /* BFAppLinkReturnToRefererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB413FCCA0E32C61C2833C4 /* BFAppLinkReturnToRefererView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		68C1C852C46BAE450CDF5981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64045619635E48264ED9838D /* Foundation.framework */; };
-		699D146CC4DC957A31C366AB /* BFMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FABB924DC5460113EBDA682 /* BFMeasurementEvent_Internal.h */; };
-		7368A2D5C02161036CB58E1F /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AC8607D83E4E687044550C /* BFTaskCompletionSource.h */; };
-		85DA0D867820375F6C4C58FF /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCCF24A4A4B920B14BABB40 /* BFCancellationToken.h */; };
-		86496F6D85524CBF51838D5A /* BFMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A27A7307C9C55BBF9B3AF8D3 /* BFMeasurementEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8707533F4F621B114D17FE92 /* BFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FF0CCC87CE11D9A9CB1806 /* BFURL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8B4C0F9EE0E44A57522ECD46 /* BFMeasurementEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = CF273E391FD90282954F1CE1 /* BFMeasurementEvent.h */; };
-		8CDBE710150515B7AD1DE510 /* BFURL_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA4DF0BEFEAD502AA3A9CA6 /* BFURL_Internal.h */; };
-		900E23154BAEC4F6DE539334 /* BFAppLinkTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D86B9B50ABC6C3B95E3BB660 /* BFAppLinkTarget.h */; };
-		92A435E7BE978D8C0531D13A /* BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8537B59E883DAA87CBDD353D /* BFTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		95F92BAE2CD3BD241AC4041D /* BFCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FD74E8E90E9A3A7D396D60FD /* BFCancellationToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9EC21F0332728772989282CA /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6BD8B00307F85D7CD6B9B2 /* BFAppLink.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ACA9AD844133409100418AAC /* BFURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5A082E5103C84B4D5710A6 /* BFURL.h */; };
-		ACD63160EAFF77B9D112746F /* BFExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = F874DA9D5B38EC6F3D58CE0F /* BFExecutor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AF1844E07743ECF028AA2295 /* Pods-Findr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF82DCF36F6AD931304DCC7C /* Pods-Findr-dummy.m */; };
-		B9F5DAA83951F950F4FD16F2 /* BFTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AC0FC677BAEEAA9FC24DD0 /* BFTaskCompletionSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BED95F5823B7A8F325054D95 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B73A8F98F1FB67A86F19AD /* BFCancellationTokenRegistration.h */; };
-		C2D33F0E280A25FE2522060F /* BoltsVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = E7024C4728DCEBCF88986F9A /* BoltsVersion.h */; };
-		C5BEC77BCA9E0CE494B09EAB /* BFAppLink_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E40D529F78E28D6F98159C /* BFAppLink_Internal.h */; };
-		CB480E844AE6F0986B0E3E90 /* BFWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EECFB25F9BBC6C44FC2473 /* BFWebViewAppLinkResolver.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DE1FA2713EDA162FE9226364 /* Bolts.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C74742E7DF67E54BEBB06A /* Bolts.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DEEA37517EF4506931A72D07 /* BFCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C029DBBDCA60C1043E451A1C /* BFCancellationTokenSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E15DD1AAFDE9396EFB443E14 /* BFWebViewAppLinkResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D48FB654B622EAA5FD0DDBA /* BFWebViewAppLinkResolver.h */; };
-		E1D13935406E50B8EF6F514A /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7E60C5C1378F3967AE51F2 /* BFAppLinkReturnToRefererController.h */; };
-		E92ABAE720BD48CC26895F71 /* Pods-Findr-Bolts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37203A29295946D1E3928B92 /* Pods-Findr-Bolts-dummy.m */; };
-		EED21B6F74602D4AE62B2D7A /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE40F97B2E9D88C17B50080 /* BFExecutor.h */; };
+		1E134AF1E52F7C6069F62C42 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 17523F3CE692CE9978698058 /* SSKeychain.h */; };
+		32D04E8D5034413C82ADDA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A326D97464E414074650C439 /* Foundation.framework */; };
+		5CB19D20C8A4A1157D5A9410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A326D97464E414074650C439 /* Foundation.framework */; };
+		7D79C1C01F2FDFA945A2751E /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC97E8DD2823671CB0D07CA /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A35584E25423BEE7D585ECDC /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EF81BDDC181B5F3B6B38DB1F /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1825E9FF70BE04A38BCC50D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F507DF5D528E295CCCD76CF6 /* Security.framework */; };
+		B2C79924F809E007758FD26C /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = A04CD5D9485A8ED8C137C1BD /* SSKeychainQuery.h */; };
+		D661F7802C9205D68B6FC504 /* Pods-Findr-SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 596B4B13F6D356B90639AE94 /* Pods-Findr-SSKeychain-dummy.m */; };
+		D76197093FE221C88DA7E3B3 /* Pods-Findr-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D7406F8D4A2CEED7CEE3F9 /* Pods-Findr-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		69E9CAE6DD922C277E2B1577 /* PBXContainerItemProxy */ = {
+		B67562A0DFC044D0C6619522 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 21B6EF24D0A607909A692382 /* Project object */;
+			containerPortal = 706B2CA3FFC99237D31E4D87 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 389ED2D98E9A4007272EB6AE;
-			remoteInfo = "Pods-Findr-Bolts";
-		};
-		82AA540D57AEA4B58D048481 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21B6EF24D0A607909A692382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B7C0D688521E1DFB882EEB2;
-			remoteInfo = "Pods-Findr-Facebook-iOS-SDK";
-		};
-		8728AF7E0E8B0EAD9C35A426 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 21B6EF24D0A607909A692382 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 389ED2D98E9A4007272EB6AE;
-			remoteInfo = "Pods-Findr-Bolts";
+			remoteGlobalIDString = 8709F0FE248DED9FD5069CE0;
+			remoteInfo = "Pods-Findr-SSKeychain";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D8B5B1E06312CECDD9C20AF /* Pods-Findr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Findr-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E5A082E5103C84B4D5710A6 /* BFURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL.h; path = Bolts/iOS/BFURL.h; sourceTree = "<group>"; };
-		252A608CE936A2468A5484FE /* BFAppLinkReturnToRefererController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererController.m; path = Bolts/iOS/BFAppLinkReturnToRefererController.m; sourceTree = "<group>"; };
-		25AC8607D83E4E687044550C /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTaskCompletionSource.h; path = Bolts/Common/BFTaskCompletionSource.h; sourceTree = "<group>"; };
-		37203A29295946D1E3928B92 /* Pods-Findr-Bolts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Findr-Bolts-dummy.m"; sourceTree = "<group>"; };
-		3BE40F97B2E9D88C17B50080 /* BFExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFExecutor.h; path = Bolts/Common/BFExecutor.h; sourceTree = "<group>"; };
-		3C07698EC0E1FA3FC52E333D /* libPods-Findr-Facebook-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr-Facebook-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7EFAA433B178FC083A80F5 /* BFTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFTask.h; path = Bolts/Common/BFTask.h; sourceTree = "<group>"; };
-		43B73A8F98F1FB67A86F19AD /* BFCancellationTokenRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenRegistration.h; path = Bolts/Common/BFCancellationTokenRegistration.h; sourceTree = "<group>"; };
-		43F42EB133DA71B2CF756BA2 /* BFCancellationTokenSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationTokenSource.h; path = Bolts/Common/BFCancellationTokenSource.h; sourceTree = "<group>"; };
-		51BA09ACB9FE3A9F25535065 /* libPods-Findr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AD3D8DDF26D3D8B9DD760CA /* libPods-Findr-Bolts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr-Bolts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D48FB654B622EAA5FD0DDBA /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFWebViewAppLinkResolver.h; path = Bolts/iOS/BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
-		5D584130A108B5631CCCB9F8 /* Pods-Findr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Findr-acknowledgements.plist"; sourceTree = "<group>"; };
-		64045619635E48264ED9838D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D98826E351D28BAD442E405 /* Bolts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bolts.h; path = Bolts/Common/Bolts.h; sourceTree = "<group>"; };
-		74E40D529F78E28D6F98159C /* BFAppLink_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink_Internal.h; path = Bolts/iOS/BFAppLink_Internal.h; sourceTree = "<group>"; };
-		777EF96A8DCF88D9C2D6F421 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkNavigation.h; path = Bolts/iOS/BFAppLinkNavigation.h; sourceTree = "<group>"; };
-		7C03872F97619B2F11EE7CDD /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		7FABB924DC5460113EBDA682 /* BFMeasurementEvent_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent_Internal.h; path = Bolts/iOS/BFMeasurementEvent_Internal.h; sourceTree = "<group>"; };
-		82AC0FC677BAEEAA9FC24DD0 /* BFTaskCompletionSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTaskCompletionSource.m; path = Bolts/Common/BFTaskCompletionSource.m; sourceTree = "<group>"; };
-		83EECFB25F9BBC6C44FC2473 /* BFWebViewAppLinkResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFWebViewAppLinkResolver.m; path = Bolts/iOS/BFWebViewAppLinkResolver.m; sourceTree = "<group>"; };
-		8537B59E883DAA87CBDD353D /* BFTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFTask.m; path = Bolts/Common/BFTask.m; sourceTree = "<group>"; };
-		8CB413FCCA0E32C61C2833C4 /* BFAppLinkReturnToRefererView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkReturnToRefererView.m; path = Bolts/iOS/BFAppLinkReturnToRefererView.m; sourceTree = "<group>"; };
-		8E08CB63C3081DD2120DD6FB /* BFAppLinkResolving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkResolving.h; path = Bolts/iOS/BFAppLinkResolving.h; sourceTree = "<group>"; };
-		91DA1658BF6836C431C8ED49 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
-		94BF6C0E7885B7912CA7463E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97047ED676EF86B1E4E14AC7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		9A97AA7A2D79D4BFA44E6D8A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		9D4AEF50DD63E872790083CA /* Pods-Findr-Bolts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Findr-Bolts-prefix.pch"; sourceTree = "<group>"; };
-		9EA4DF0BEFEAD502AA3A9CA6 /* BFURL_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFURL_Internal.h; path = Bolts/iOS/BFURL_Internal.h; sourceTree = "<group>"; };
-		A1C74742E7DF67E54BEBB06A /* Bolts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bolts.m; path = Bolts/Common/Bolts.m; sourceTree = "<group>"; };
-		A27A7307C9C55BBF9B3AF8D3 /* BFMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFMeasurementEvent.m; path = Bolts/iOS/BFMeasurementEvent.m; sourceTree = "<group>"; };
-		A3A7B3308E43BFE40CA8F3FA /* Pods-Findr-Bolts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr-Bolts.xcconfig"; sourceTree = "<group>"; };
-		A7640B82B16319E93CBBE5DC /* Pods-Findr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Findr-resources.sh"; sourceTree = "<group>"; };
-		A781F2FBA4C4F70944C88BBF /* Pods-Findr-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Findr-environment.h"; sourceTree = "<group>"; };
-		AF82DCF36F6AD931304DCC7C /* Pods-Findr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Findr-dummy.m"; sourceTree = "<group>"; };
-		B084C32522891BBDEC3014EF /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView.h; path = Bolts/iOS/BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
-		B5FF0CCC87CE11D9A9CB1806 /* BFURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFURL.m; path = Bolts/iOS/BFURL.m; sourceTree = "<group>"; };
-		BA780D7DEB062F3C4B548192 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererView_Internal.h; path = Bolts/iOS/BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
-		C029DBBDCA60C1043E451A1C /* BFCancellationTokenSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenSource.m; path = Bolts/Common/BFCancellationTokenSource.m; sourceTree = "<group>"; };
-		C960210168049B9B0ECA6BA3 /* BFAppLinkNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkNavigation.m; path = Bolts/iOS/BFAppLinkNavigation.m; sourceTree = "<group>"; };
-		CF273E391FD90282954F1CE1 /* BFMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFMeasurementEvent.h; path = Bolts/iOS/BFMeasurementEvent.h; sourceTree = "<group>"; };
-		CF47E0FBDD97B71AB313C4A0 /* BFAppLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLink.h; path = Bolts/iOS/BFAppLink.h; sourceTree = "<group>"; };
-		D86B9B50ABC6C3B95E3BB660 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkTarget.h; path = Bolts/iOS/BFAppLinkTarget.h; sourceTree = "<group>"; };
-		DF7E60C5C1378F3967AE51F2 /* BFAppLinkReturnToRefererController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFAppLinkReturnToRefererController.h; path = Bolts/iOS/BFAppLinkReturnToRefererController.h; sourceTree = "<group>"; };
-		E09E4CA9891048F9A925587C /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
-		E7024C4728DCEBCF88986F9A /* BoltsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoltsVersion.h; path = Bolts/Common/BoltsVersion.h; sourceTree = "<group>"; };
-		EF25647643917D36DD518C37 /* Pods-Findr-Bolts-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr-Bolts-Private.xcconfig"; sourceTree = "<group>"; };
-		F15059F8A2C81080565C2568 /* BFAppLinkTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLinkTarget.m; path = Bolts/iOS/BFAppLinkTarget.m; sourceTree = "<group>"; };
-		F8553BA79E9C3598091221E6 /* BFCancellationTokenRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationTokenRegistration.m; path = Bolts/Common/BFCancellationTokenRegistration.m; sourceTree = "<group>"; };
-		F874DA9D5B38EC6F3D58CE0F /* BFExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFExecutor.m; path = Bolts/Common/BFExecutor.m; sourceTree = "<group>"; };
-		FB6BD8B00307F85D7CD6B9B2 /* BFAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFAppLink.m; path = Bolts/iOS/BFAppLink.m; sourceTree = "<group>"; };
-		FD74E8E90E9A3A7D396D60FD /* BFCancellationToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFCancellationToken.m; path = Bolts/Common/BFCancellationToken.m; sourceTree = "<group>"; };
-		FFCCF24A4A4B920B14BABB40 /* BFCancellationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFCancellationToken.h; path = Bolts/Common/BFCancellationToken.h; sourceTree = "<group>"; };
+		00B50B1369184893FFBBD572 /* Pods-Findr-SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr-SSKeychain.xcconfig"; sourceTree = "<group>"; };
+		17523F3CE692CE9978698058 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		1B3ABBBBBA3CE76D11F90A9E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		1FF9EEF8376D295B5F36718D /* libPods-Findr-SSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr-SSKeychain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242CD793EEDC5336852314D0 /* Pods-Findr-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Findr-acknowledgements.plist"; sourceTree = "<group>"; };
+		439B691225E5BD9765171D04 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4CC97E8DD2823671CB0D07CA /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		596B4B13F6D356B90639AE94 /* Pods-Findr-SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Findr-SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		5D44682414167FB95CBC7F58 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
+		63EE89F8453CF51E2B5D3529 /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC13B95A5773BF8429760BA /* Pods-Findr-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Findr-resources.sh"; sourceTree = "<group>"; };
+		99DFADCC481A9EAE08E0ED7F /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A04CD5D9485A8ED8C137C1BD /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		A326D97464E414074650C439 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C95CE1B733FBC14385CC40AE /* Pods-Findr-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Findr-environment.h"; sourceTree = "<group>"; };
+		D4EDF7C92DCCF77EDF21C6DE /* Pods-Findr-SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Findr-SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
+		E0309C7C6F29FFF6A42C57C7 /* libPods-Findr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E565D2280D11796D35B6834A /* Pods-Findr-SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Findr-SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		EF81BDDC181B5F3B6B38DB1F /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		F2D7406F8D4A2CEED7CEE3F9 /* Pods-Findr-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Findr-dummy.m"; sourceTree = "<group>"; };
+		F507DF5D528E295CCCD76CF6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FD270C1047E0B142B2E91A9B /* Pods-Findr-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Findr-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		786A0D56A251077E47264ACB /* Frameworks */ = {
+		635E9B6B0FCDD77A0BDDA9FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C1C852C46BAE450CDF5981 /* Foundation.framework in Frameworks */,
+				5CB19D20C8A4A1157D5A9410 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F9D9A3FBA3C5AA47245029D /* Frameworks */ = {
+		FD94A33CD76F11A96CC3AECB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172784D1FA5E3BBC73CA2C61 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3AA070C749628DFEFAC4E0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				488AABF287DE23E22565E46E /* Foundation.framework in Frameworks */,
+				32D04E8D5034413C82ADDA40 /* Foundation.framework in Frameworks */,
+				B1825E9FF70BE04A38BCC50D /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08E802BAA1F0D1C7CAF10B3C /* AppLinks */ = {
+		12D51A68B80FC518F40CCC5C = {
 			isa = PBXGroup;
 			children = (
-				CF47E0FBDD97B71AB313C4A0 /* BFAppLink.h */,
-				FB6BD8B00307F85D7CD6B9B2 /* BFAppLink.m */,
-				777EF96A8DCF88D9C2D6F421 /* BFAppLinkNavigation.h */,
-				C960210168049B9B0ECA6BA3 /* BFAppLinkNavigation.m */,
-				8E08CB63C3081DD2120DD6FB /* BFAppLinkResolving.h */,
-				DF7E60C5C1378F3967AE51F2 /* BFAppLinkReturnToRefererController.h */,
-				252A608CE936A2468A5484FE /* BFAppLinkReturnToRefererController.m */,
-				B084C32522891BBDEC3014EF /* BFAppLinkReturnToRefererView.h */,
-				8CB413FCCA0E32C61C2833C4 /* BFAppLinkReturnToRefererView.m */,
-				BA780D7DEB062F3C4B548192 /* BFAppLinkReturnToRefererView_Internal.h */,
-				D86B9B50ABC6C3B95E3BB660 /* BFAppLinkTarget.h */,
-				F15059F8A2C81080565C2568 /* BFAppLinkTarget.m */,
-				74E40D529F78E28D6F98159C /* BFAppLink_Internal.h */,
-				CF273E391FD90282954F1CE1 /* BFMeasurementEvent.h */,
-				A27A7307C9C55BBF9B3AF8D3 /* BFMeasurementEvent.m */,
-				7FABB924DC5460113EBDA682 /* BFMeasurementEvent_Internal.h */,
-				1E5A082E5103C84B4D5710A6 /* BFURL.h */,
-				B5FF0CCC87CE11D9A9CB1806 /* BFURL.m */,
-				9EA4DF0BEFEAD502AA3A9CA6 /* BFURL_Internal.h */,
-				5D48FB654B622EAA5FD0DDBA /* BFWebViewAppLinkResolver.h */,
-				83EECFB25F9BBC6C44FC2473 /* BFWebViewAppLinkResolver.m */,
+				439B691225E5BD9765171D04 /* Podfile */,
+				E8A27377CCF226EEE1C95163 /* Frameworks */,
+				186FD1554063DF343D97CB22 /* Pods */,
+				BC5A13CE4D43C7EC03F282EE /* Products */,
+				66FB5681C20616337A1D1F6B /* Targets Support Files */,
 			);
-			name = AppLinks;
 			sourceTree = "<group>";
 		};
-		10A153700439165756AD692E /* Frameworks */ = {
+		186FD1554063DF343D97CB22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60A54F88303DEB85CB2E85EE /* iOS */,
+				1DCFC61D255A6188A3FD23BA /* GoogleMaps */,
+				E3FC1A2D817E272A127BF775 /* SSKeychain */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		1A043155E927B51C2310E6BA /* Products */ = {
+		1DB09CD4501ECD1536DDB0DE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				51BA09ACB9FE3A9F25535065 /* libPods-Findr.a */,
-				5AD3D8DDF26D3D8B9DD760CA /* libPods-Findr-Bolts.a */,
-				3C07698EC0E1FA3FC52E333D /* libPods-Findr-Facebook-iOS-SDK.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		29FB09F697EB9BE27ADE827E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3A7B3308E43BFE40CA8F3FA /* Pods-Findr-Bolts.xcconfig */,
-				EF25647643917D36DD518C37 /* Pods-Findr-Bolts-Private.xcconfig */,
-				37203A29295946D1E3928B92 /* Pods-Findr-Bolts-dummy.m */,
-				9D4AEF50DD63E872790083CA /* Pods-Findr-Bolts-prefix.pch */,
+				00B50B1369184893FFBBD572 /* Pods-Findr-SSKeychain.xcconfig */,
+				D4EDF7C92DCCF77EDF21C6DE /* Pods-Findr-SSKeychain-Private.xcconfig */,
+				596B4B13F6D356B90639AE94 /* Pods-Findr-SSKeychain-dummy.m */,
+				E565D2280D11796D35B6834A /* Pods-Findr-SSKeychain-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-Findr-Bolts";
+			path = "../Target Support Files/Pods-Findr-SSKeychain";
 			sourceTree = "<group>";
 		};
-		38D148D13D9E60F1DF63E698 /* Parse */ = {
+		1DCFC61D255A6188A3FD23BA /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				BE7B12D6EF8ACF00981DFEB7 /* Frameworks */,
+				499E01D2594D825D096AE6EB /* Frameworks */,
+				6BD670ECD4FE6AE4369295FB /* Resources */,
 			);
-			path = Parse;
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
-		60A54F88303DEB85CB2E85EE /* iOS */ = {
+		4133E1EBDE38BF0AA920DDB0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				64045619635E48264ED9838D /* Foundation.framework */,
+				A326D97464E414074650C439 /* Foundation.framework */,
+				F507DF5D528E295CCCD76CF6 /* Security.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C47D8F9B70F81D18118D4E0 /* Tasks */ = {
+		499E01D2594D825D096AE6EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFCCF24A4A4B920B14BABB40 /* BFCancellationToken.h */,
-				FD74E8E90E9A3A7D396D60FD /* BFCancellationToken.m */,
-				43B73A8F98F1FB67A86F19AD /* BFCancellationTokenRegistration.h */,
-				F8553BA79E9C3598091221E6 /* BFCancellationTokenRegistration.m */,
-				43F42EB133DA71B2CF756BA2 /* BFCancellationTokenSource.h */,
-				C029DBBDCA60C1043E451A1C /* BFCancellationTokenSource.m */,
-				3BE40F97B2E9D88C17B50080 /* BFExecutor.h */,
-				F874DA9D5B38EC6F3D58CE0F /* BFExecutor.m */,
-				3D7EFAA433B178FC083A80F5 /* BFTask.h */,
-				8537B59E883DAA87CBDD353D /* BFTask.m */,
-				25AC8607D83E4E687044550C /* BFTaskCompletionSource.h */,
-				82AC0FC677BAEEAA9FC24DD0 /* BFTaskCompletionSource.m */,
-				6D98826E351D28BAD442E405 /* Bolts.h */,
-				A1C74742E7DF67E54BEBB06A /* Bolts.m */,
-				E7024C4728DCEBCF88986F9A /* BoltsVersion.h */,
+				1B3ABBBBBA3CE76D11F90A9E /* GoogleMaps.framework */,
 			);
-			name = Tasks;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F65FFF53D6FF76C03B71757 /* Resources */ = {
+		66FB5681C20616337A1D1F6B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7C03872F97619B2F11EE7CDD /* GoogleMaps.bundle */,
+				AB39655E9BFC1F79902983A8 /* Pods-Findr */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BD670ECD4FE6AE4369295FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99DFADCC481A9EAE08E0ED7F /* GoogleMaps.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7C6FB38956311E80619FBB8F /* Pods-Findr */ = {
+		AB39655E9BFC1F79902983A8 /* Pods-Findr */ = {
 			isa = PBXGroup;
 			children = (
-				1D8B5B1E06312CECDD9C20AF /* Pods-Findr-acknowledgements.markdown */,
-				5D584130A108B5631CCCB9F8 /* Pods-Findr-acknowledgements.plist */,
-				AF82DCF36F6AD931304DCC7C /* Pods-Findr-dummy.m */,
-				A781F2FBA4C4F70944C88BBF /* Pods-Findr-environment.h */,
-				A7640B82B16319E93CBBE5DC /* Pods-Findr-resources.sh */,
-				E09E4CA9891048F9A925587C /* Pods-Findr.debug.xcconfig */,
-				91DA1658BF6836C431C8ED49 /* Pods-Findr.release.xcconfig */,
+				FD270C1047E0B142B2E91A9B /* Pods-Findr-acknowledgements.markdown */,
+				242CD793EEDC5336852314D0 /* Pods-Findr-acknowledgements.plist */,
+				F2D7406F8D4A2CEED7CEE3F9 /* Pods-Findr-dummy.m */,
+				C95CE1B733FBC14385CC40AE /* Pods-Findr-environment.h */,
+				8DC13B95A5773BF8429760BA /* Pods-Findr-resources.sh */,
+				63EE89F8453CF51E2B5D3529 /* Pods-Findr.debug.xcconfig */,
+				5D44682414167FB95CBC7F58 /* Pods-Findr.release.xcconfig */,
 			);
 			name = "Pods-Findr";
 			path = "Target Support Files/Pods-Findr";
 			sourceTree = "<group>";
 		};
-		A8CC162A1E672F6ED1FBBCE8 /* Targets Support Files */ = {
+		BC5A13CE4D43C7EC03F282EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C6FB38956311E80619FBB8F /* Pods-Findr */,
+				E0309C7C6F29FFF6A42C57C7 /* libPods-Findr.a */,
+				1FF9EEF8376D295B5F36718D /* libPods-Findr-SSKeychain.a */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		AD8616CCB26416FFA9E4F35D /* GoogleMaps */ = {
+		E3FC1A2D817E272A127BF775 /* SSKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				E113DFDFE8B47D2684B402FA /* Frameworks */,
-				6F65FFF53D6FF76C03B71757 /* Resources */,
+				17523F3CE692CE9978698058 /* SSKeychain.h */,
+				EF81BDDC181B5F3B6B38DB1F /* SSKeychain.m */,
+				A04CD5D9485A8ED8C137C1BD /* SSKeychainQuery.h */,
+				4CC97E8DD2823671CB0D07CA /* SSKeychainQuery.m */,
+				1DB09CD4501ECD1536DDB0DE /* Support Files */,
 			);
-			path = GoogleMaps;
+			path = SSKeychain;
 			sourceTree = "<group>";
 		};
-		BE7B12D6EF8ACF00981DFEB7 /* Frameworks */ = {
+		E8A27377CCF226EEE1C95163 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A97AA7A2D79D4BFA44E6D8A /* Parse.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C402BE6125BA41D797C28C99 = {
-			isa = PBXGroup;
-			children = (
-				94BF6C0E7885B7912CA7463E /* Podfile */,
-				10A153700439165756AD692E /* Frameworks */,
-				CAC12D9096832C3D698E0F50 /* Pods */,
-				1A043155E927B51C2310E6BA /* Products */,
-				A8CC162A1E672F6ED1FBBCE8 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		CAC12D9096832C3D698E0F50 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D8AA8378220D33173EAC33B9 /* Bolts */,
-				AD8616CCB26416FFA9E4F35D /* GoogleMaps */,
-				38D148D13D9E60F1DF63E698 /* Parse */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D8AA8378220D33173EAC33B9 /* Bolts */ = {
-			isa = PBXGroup;
-			children = (
-				08E802BAA1F0D1C7CAF10B3C /* AppLinks */,
-				29FB09F697EB9BE27ADE827E /* Support Files */,
-				6C47D8F9B70F81D18118D4E0 /* Tasks */,
-			);
-			path = Bolts;
-			sourceTree = "<group>";
-		};
-		E113DFDFE8B47D2684B402FA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				97047ED676EF86B1E4E14AC7 /* GoogleMaps.framework */,
+				4133E1EBDE38BF0AA920DDB0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,194 +195,182 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D90D80C6D915C4E5F2313A2 /* Headers */ = {
+		662FF3BA5320D251B35FEF4C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41208D2360DACC81C3899E01 /* BFAppLink.h in Headers */,
-				531A3A6C6C417D4278816628 /* BFAppLinkNavigation.h in Headers */,
-				328D2464121979EEF95A823B /* BFAppLinkResolving.h in Headers */,
-				E1D13935406E50B8EF6F514A /* BFAppLinkReturnToRefererController.h in Headers */,
-				4D461D75ABA08EE7A7273F8A /* BFAppLinkReturnToRefererView.h in Headers */,
-				3B082C0F8F219A0D4C30F219 /* BFAppLinkReturnToRefererView_Internal.h in Headers */,
-				900E23154BAEC4F6DE539334 /* BFAppLinkTarget.h in Headers */,
-				C5BEC77BCA9E0CE494B09EAB /* BFAppLink_Internal.h in Headers */,
-				85DA0D867820375F6C4C58FF /* BFCancellationToken.h in Headers */,
-				BED95F5823B7A8F325054D95 /* BFCancellationTokenRegistration.h in Headers */,
-				1C6AFE21148C77A32859399D /* BFCancellationTokenSource.h in Headers */,
-				EED21B6F74602D4AE62B2D7A /* BFExecutor.h in Headers */,
-				8B4C0F9EE0E44A57522ECD46 /* BFMeasurementEvent.h in Headers */,
-				699D146CC4DC957A31C366AB /* BFMeasurementEvent_Internal.h in Headers */,
-				341F9F07148634DF38A3E3F3 /* BFTask.h in Headers */,
-				7368A2D5C02161036CB58E1F /* BFTaskCompletionSource.h in Headers */,
-				ACA9AD844133409100418AAC /* BFURL.h in Headers */,
-				8CDBE710150515B7AD1DE510 /* BFURL_Internal.h in Headers */,
-				E15DD1AAFDE9396EFB443E14 /* BFWebViewAppLinkResolver.h in Headers */,
-				45FF92725CE155183775058E /* Bolts.h in Headers */,
-				C2D33F0E280A25FE2522060F /* BoltsVersion.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E30BC6B125D965C52C08D1C2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1E134AF1E52F7C6069F62C42 /* SSKeychain.h in Headers */,
+				B2C79924F809E007758FD26C /* SSKeychainQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		389ED2D98E9A4007272EB6AE /* Pods-Findr-Bolts */ = {
+		8709F0FE248DED9FD5069CE0 /* Pods-Findr-SSKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6EC3C46EB69AC1A1476A4A /* Build configuration list for PBXNativeTarget "Pods-Findr-Bolts" */;
+			buildConfigurationList = 3B9A598EA348A96087A2F100 /* Build configuration list for PBXNativeTarget "Pods-Findr-SSKeychain" */;
 			buildPhases = (
-				ADBA3601465011690DD11163 /* Sources */,
-				F3AA070C749628DFEFAC4E0A /* Frameworks */,
-				0D90D80C6D915C4E5F2313A2 /* Headers */,
+				ED50BABF2449F7FE686FCB53 /* Sources */,
+				FD94A33CD76F11A96CC3AECB /* Frameworks */,
+				662FF3BA5320D251B35FEF4C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Findr-Bolts";
-			productName = "Pods-Findr-Bolts";
-			productReference = 5AD3D8DDF26D3D8B9DD760CA /* libPods-Findr-Bolts.a */;
+			name = "Pods-Findr-SSKeychain";
+			productName = "Pods-Findr-SSKeychain";
+			productReference = 1FF9EEF8376D295B5F36718D /* libPods-Findr-SSKeychain.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5B94CA8587C641FBC7DC52F8 /* Pods-Findr */ = {
+		F4BB26D78EC7957C11214678 /* Pods-Findr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77886370C5F26D58AF50B858 /* Build configuration list for PBXNativeTarget "Pods-Findr" */;
+			buildConfigurationList = BF200332D18329F07FEE8ABB /* Build configuration list for PBXNativeTarget "Pods-Findr" */;
 			buildPhases = (
-				C624042B56E6B60F66AF95C6 /* Sources */,
-				9F9D9A3FBA3C5AA47245029D /* Frameworks */,
+				260D3E843CA633460C1AECD3 /* Sources */,
+				635E9B6B0FCDD77A0BDDA9FF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9450FF1A50A48FAF1DE1DF32 /* PBXTargetDependency */,
-				FA15E7712DFCA1DA90495E99 /* PBXTargetDependency */,
+				F3B2DA4C539849148A8B7352 /* PBXTargetDependency */,
 			);
 			name = "Pods-Findr";
 			productName = "Pods-Findr";
-			productReference = 51BA09ACB9FE3A9F25535065 /* libPods-Findr.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8B7C0D688521E1DFB882EEB2 /* Pods-Findr-Facebook-iOS-SDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6F995AC963C3B6DC08DCBD7 /* Build configuration list for PBXNativeTarget "Pods-Findr-Facebook-iOS-SDK" */;
-			buildPhases = (
-				307B0C84F66A1F86398BFF56 /* Sources */,
-				786A0D56A251077E47264ACB /* Frameworks */,
-				E30BC6B125D965C52C08D1C2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55FE4583CF3645923763C76B /* PBXTargetDependency */,
-			);
-			name = "Pods-Findr-Facebook-iOS-SDK";
-			productName = "Pods-Findr-Facebook-iOS-SDK";
-			productReference = 3C07698EC0E1FA3FC52E333D /* libPods-Findr-Facebook-iOS-SDK.a */;
+			productReference = E0309C7C6F29FFF6A42C57C7 /* libPods-Findr.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21B6EF24D0A607909A692382 /* Project object */ = {
+		706B2CA3FFC99237D31E4D87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = D67751E7BDAF61D2180157B8 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2A972AD92EFCCA404B5EA05F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C402BE6125BA41D797C28C99;
-			productRefGroup = 1A043155E927B51C2310E6BA /* Products */;
+			mainGroup = 12D51A68B80FC518F40CCC5C;
+			productRefGroup = BC5A13CE4D43C7EC03F282EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B94CA8587C641FBC7DC52F8 /* Pods-Findr */,
-				389ED2D98E9A4007272EB6AE /* Pods-Findr-Bolts */,
-				8B7C0D688521E1DFB882EEB2 /* Pods-Findr-Facebook-iOS-SDK */,
+				F4BB26D78EC7957C11214678 /* Pods-Findr */,
+				8709F0FE248DED9FD5069CE0 /* Pods-Findr-SSKeychain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		307B0C84F66A1F86398BFF56 /* Sources */ = {
+		260D3E843CA633460C1AECD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76197093FE221C88DA7E3B3 /* Pods-Findr-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADBA3601465011690DD11163 /* Sources */ = {
+		ED50BABF2449F7FE686FCB53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC21F0332728772989282CA /* BFAppLink.m in Sources */,
-				3122B9EF2766A39E8F074943 /* BFAppLinkNavigation.m in Sources */,
-				2D7F1A36F070F1F9D375DFCB /* BFAppLinkReturnToRefererController.m in Sources */,
-				66782690074D27CFA7F4A882 /* BFAppLinkReturnToRefererView.m in Sources */,
-				54BA476E8444D68DBEED725B /* BFAppLinkTarget.m in Sources */,
-				95F92BAE2CD3BD241AC4041D /* BFCancellationToken.m in Sources */,
-				5296D6B7C16EDE04F9AEE205 /* BFCancellationTokenRegistration.m in Sources */,
-				DEEA37517EF4506931A72D07 /* BFCancellationTokenSource.m in Sources */,
-				ACD63160EAFF77B9D112746F /* BFExecutor.m in Sources */,
-				86496F6D85524CBF51838D5A /* BFMeasurementEvent.m in Sources */,
-				92A435E7BE978D8C0531D13A /* BFTask.m in Sources */,
-				B9F5DAA83951F950F4FD16F2 /* BFTaskCompletionSource.m in Sources */,
-				8707533F4F621B114D17FE92 /* BFURL.m in Sources */,
-				CB480E844AE6F0986B0E3E90 /* BFWebViewAppLinkResolver.m in Sources */,
-				DE1FA2713EDA162FE9226364 /* Bolts.m in Sources */,
-				E92ABAE720BD48CC26895F71 /* Pods-Findr-Bolts-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C624042B56E6B60F66AF95C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF1844E07743ECF028AA2295 /* Pods-Findr-dummy.m in Sources */,
+				D661F7802C9205D68B6FC504 /* Pods-Findr-SSKeychain-dummy.m in Sources */,
+				A35584E25423BEE7D585ECDC /* SSKeychain.m in Sources */,
+				7D79C1C01F2FDFA945A2751E /* SSKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55FE4583CF3645923763C76B /* PBXTargetDependency */ = {
+		F3B2DA4C539849148A8B7352 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Findr-Bolts";
-			target = 389ED2D98E9A4007272EB6AE /* Pods-Findr-Bolts */;
-			targetProxy = 8728AF7E0E8B0EAD9C35A426 /* PBXContainerItemProxy */;
-		};
-		9450FF1A50A48FAF1DE1DF32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Findr-Bolts";
-			target = 389ED2D98E9A4007272EB6AE /* Pods-Findr-Bolts */;
-			targetProxy = 69E9CAE6DD922C277E2B1577 /* PBXContainerItemProxy */;
-		};
-		FA15E7712DFCA1DA90495E99 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Findr-Facebook-iOS-SDK";
-			target = 8B7C0D688521E1DFB882EEB2 /* Pods-Findr-Facebook-iOS-SDK */;
-			targetProxy = 82AA540D57AEA4B58D048481 /* PBXContainerItemProxy */;
+			name = "Pods-Findr-SSKeychain";
+			target = 8709F0FE248DED9FD5069CE0 /* Pods-Findr-SSKeychain */;
+			targetProxy = B67562A0DFC044D0C6619522 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F2DD1CCBAE73FE7716A7810 /* Release */ = {
+		05C113AD05BA066A00969F4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF25647643917D36DD518C37 /* Pods-Findr-Bolts-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E63244C144B472AE5336768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D44682414167FB95CBC7F58 /* Pods-Findr.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-Bolts/Pods-Findr-Bolts-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3B2AEB4F8F7FC884A9402F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63EE89F8453CF51E2B5D3529 /* Pods-Findr.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		554BA15DF667060946E7A79D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EDF7C92DCCF77EDF21C6DE /* Pods-Findr-SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-SSKeychain/Pods-Findr-SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -543,13 +380,13 @@
 			};
 			name = Release;
 		};
-		1940D041C26D7976F59FBD99 /* Debug */ = {
+		A04054FCAA7F3FCDA7F38261 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF25647643917D36DD518C37 /* Pods-Findr-Bolts-Private.xcconfig */;
+			baseConfigurationReference = D4EDF7C92DCCF77EDF21C6DE /* Pods-Findr-SSKeychain-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-Bolts/Pods-Findr-Bolts-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-SSKeychain/Pods-Findr-SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -559,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		3A035F147F85E178E135AB8C /* Debug */ = {
+		BFE5C57C904A7AB422B11E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -591,149 +428,44 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		771E951BBDC96939982AEBE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		993E5B742EF2BF7EC469BD1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-Facebook-iOS-SDK/Pods-Findr-Facebook-iOS-SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9B4D5CB24246A8924B672F91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09E4CA9891048F9A925587C /* Pods-Findr.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		BA7223CE87FDD6371AC26F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Findr-Facebook-iOS-SDK/Pods-Findr-Facebook-iOS-SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		FBED3CB2212C5315FBDA7001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91DA1658BF6836C431C8ED49 /* Pods-Findr.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B6EC3C46EB69AC1A1476A4A /* Build configuration list for PBXNativeTarget "Pods-Findr-Bolts" */ = {
+		2A972AD92EFCCA404B5EA05F /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1940D041C26D7976F59FBD99 /* Debug */,
-				0F2DD1CCBAE73FE7716A7810 /* Release */,
+				BFE5C57C904A7AB422B11E7A /* Debug */,
+				05C113AD05BA066A00969F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77886370C5F26D58AF50B858 /* Build configuration list for PBXNativeTarget "Pods-Findr" */ = {
+		3B9A598EA348A96087A2F100 /* Build configuration list for PBXNativeTarget "Pods-Findr-SSKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B4D5CB24246A8924B672F91 /* Debug */,
-				FBED3CB2212C5315FBDA7001 /* Release */,
+				A04054FCAA7F3FCDA7F38261 /* Debug */,
+				554BA15DF667060946E7A79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6F995AC963C3B6DC08DCBD7 /* Build configuration list for PBXNativeTarget "Pods-Findr-Facebook-iOS-SDK" */ = {
+		BF200332D18329F07FEE8ABB /* Build configuration list for PBXNativeTarget "Pods-Findr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA7223CE87FDD6371AC26F7C /* Debug */,
-				993E5B742EF2BF7EC469BD1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D67751E7BDAF61D2180157B8 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A035F147F85E178E135AB8C /* Debug */,
-				771E951BBDC96939982AEBE8 /* Release */,
+				3B2AEB4F8F7FC884A9402F39 /* Debug */,
+				1E63244C144B472AE5336768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21B6EF24D0A607909A692382 /* Project object */;
+	rootObject = 706B2CA3FFC99237D31E4D87 /* Project object */;
 }

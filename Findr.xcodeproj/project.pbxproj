@@ -18,6 +18,17 @@
 		9963923F1B251F9B00CC2A6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */; };
 		9963924B1B251F9B00CC2A6D /* FindrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9963924A1B251F9B00CC2A6D /* FindrTests.swift */; };
 		996392591B2520D100CC2A6D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392581B2520D100CC2A6D /* MapViewController.swift */; };
+		99B471D11B264BE000A95099 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D01B264BE000A95099 /* AudioToolbox.framework */; };
+		99B471D31B264BE600A95099 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D21B264BE600A95099 /* CFNetwork.framework */; };
+		99B471D51B264BED00A95099 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D41B264BED00A95099 /* CoreGraphics.framework */; };
+		99B471D71B264BF200A95099 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D61B264BF200A95099 /* CoreLocation.framework */; };
+		99B471D91B264BF800A95099 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471D81B264BF800A95099 /* MobileCoreServices.framework */; };
+		99B471DB1B264BFE00A95099 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DA1B264BFE00A95099 /* QuartzCore.framework */; };
+		99B471DD1B264C0300A95099 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DC1B264C0300A95099 /* Security.framework */; };
+		99B471DF1B264C0900A95099 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471DE1B264C0900A95099 /* StoreKit.framework */; };
+		99B471E11B264C0F00A95099 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E01B264C0F00A95099 /* SystemConfiguration.framework */; };
+		99B471E31B264C1500A95099 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E21B264C1500A95099 /* libz.dylib */; };
+		99B471E51B264C1B00A95099 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B471E41B264C1B00A95099 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +44,6 @@
 /* Begin PBXFileReference section */
 		04A2F3FD744C2859D1A76BB0 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
 		060AA4D61B26112B00439684 /* ItemInfoBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemInfoBundle.swift; path = ../ItemInfoBundle.swift; sourceTree = "<group>"; };
-		060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
 		060AA4D91B261C2200439684 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		060AA4DA1B261C2200439684 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -49,22 +59,18 @@
 		996392491B251F9B00CC2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9963924A1B251F9B00CC2A6D /* FindrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindrTests.swift; sourceTree = "<group>"; };
 		996392581B2520D100CC2A6D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		997BFAC91B262E98002AAA94 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		997BFACA1B262E98002AAA94 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		997BFACD1B262EED002AAA94 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		997BFACF1B262EF3002AAA94 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		997BFAD11B262EFB002AAA94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		997BFAD31B262F00002AAA94 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		997BFAD51B262F07002AAA94 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		997BFAD71B262F10002AAA94 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		997BFAD91B262F41002AAA94 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
-		997BFADB1B262F4B002AAA94 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		997BFADD1B262F86002AAA94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		997BFADF1B262F8A002AAA94 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		997BFAE11B262F90002AAA94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		997BFAE31B262F96002AAA94 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		997BFAE51B262F9B002AAA94 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		997BFAE71B262FE0002AAA94 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		99B471D01B264BE000A95099 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99B471D21B264BE600A95099 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		99B471D41B264BED00A95099 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99B471D61B264BF200A95099 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99B471D81B264BF800A95099 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		99B471DA1B264BFE00A95099 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99B471DC1B264C0300A95099 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99B471DE1B264C0900A95099 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99B471E01B264C0F00A95099 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		99B471E21B264C1500A95099 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		99B471E41B264C1B00A95099 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
 		E324AB4208A117F2B2378CB9 /* libPods-Findr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +79,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B471E51B264C1B00A95099 /* libsqlite3.dylib in Frameworks */,
+				99B471E31B264C1500A95099 /* libz.dylib in Frameworks */,
+				99B471E11B264C0F00A95099 /* SystemConfiguration.framework in Frameworks */,
+				99B471DF1B264C0900A95099 /* StoreKit.framework in Frameworks */,
+				99B471DD1B264C0300A95099 /* Security.framework in Frameworks */,
+				99B471DB1B264BFE00A95099 /* QuartzCore.framework in Frameworks */,
+				99B471D91B264BF800A95099 /* MobileCoreServices.framework in Frameworks */,
+				99B471D71B264BF200A95099 /* CoreLocation.framework in Frameworks */,
+				99B471D51B264BED00A95099 /* CoreGraphics.framework in Frameworks */,
+				99B471D31B264BE600A95099 /* CFNetwork.framework in Frameworks */,
+				99B471D11B264BE000A95099 /* AudioToolbox.framework in Frameworks */,
 				95B24870C5FEB010D59909B9 /* libPods-Findr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,21 +107,17 @@
 		57C9602C6B7F8D165FE8B607 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				997BFAE51B262F9B002AAA94 /* libsqlite3.dylib */,
-				997BFAE31B262F96002AAA94 /* libz.dylib */,
-				997BFAE11B262F90002AAA94 /* SystemConfiguration.framework */,
-				997BFADF1B262F8A002AAA94 /* StoreKit.framework */,
-				997BFADD1B262F86002AAA94 /* Security.framework */,
-				997BFADB1B262F4B002AAA94 /* ParseCrashReporting.framework */,
-				997BFAD91B262F41002AAA94 /* ParseUI.framework */,
-				997BFAD71B262F10002AAA94 /* QuartzCore.framework */,
-				997BFAD51B262F07002AAA94 /* MobileCoreServices.framework */,
-				997BFAD31B262F00002AAA94 /* CoreLocation.framework */,
-				997BFAD11B262EFB002AAA94 /* CoreGraphics.framework */,
-				997BFACF1B262EF3002AAA94 /* CFNetwork.framework */,
-				997BFACD1B262EED002AAA94 /* AudioToolbox.framework */,
-				997BFAC91B262E98002AAA94 /* Bolts.framework */,
-				997BFACA1B262E98002AAA94 /* Parse.framework */,
+				99B471E41B264C1B00A95099 /* libsqlite3.dylib */,
+				99B471E21B264C1500A95099 /* libz.dylib */,
+				99B471E01B264C0F00A95099 /* SystemConfiguration.framework */,
+				99B471DE1B264C0900A95099 /* StoreKit.framework */,
+				99B471DC1B264C0300A95099 /* Security.framework */,
+				99B471DA1B264BFE00A95099 /* QuartzCore.framework */,
+				99B471D81B264BF800A95099 /* MobileCoreServices.framework */,
+				99B471D61B264BF200A95099 /* CoreLocation.framework */,
+				99B471D41B264BED00A95099 /* CoreGraphics.framework */,
+				99B471D21B264BE600A95099 /* CFNetwork.framework */,
+				99B471D01B264BE000A95099 /* AudioToolbox.framework */,
 				E324AB4208A117F2B2378CB9 /* libPods-Findr.a */,
 			);
 			name = Frameworks;
@@ -141,7 +154,7 @@
 				06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */,
 				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
 				996392321B251F9B00CC2A6D /* Supporting Files */,
-				997BFAE71B262FE0002AAA94 /* Bridging-Header.h */,
+				99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */,
 			);
 			path = Findr;
 			sourceTree = "<group>";
@@ -153,7 +166,6 @@
 				060AA4DA1B261C2200439684 /* KeychainWrapper.m */,
 				9963923B1B251F9B00CC2A6D /* Images.xcassets */,
 				996392331B251F9B00CC2A6D /* Info.plist */,
-				060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -458,9 +470,73 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"Pods-Findr-Bolts\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -476,9 +552,73 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"Pods-Findr-Bolts\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Parse\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
 			};
