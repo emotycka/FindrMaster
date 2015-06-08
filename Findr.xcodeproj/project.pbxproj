@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
 		9963923A1B251F9B00CC2A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996392381B251F9B00CC2A6D /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		04A2F3FD744C2859D1A76BB0 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
+		06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		31FF6F2519ED13D71C62EBF8 /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
 		9963922F1B251F9B00CC2A6D /* Findr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996392331B251F9B00CC2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
 				996392321B251F9B00CC2A6D /* Supporting Files */,
 				996392581B2520D100CC2A6D /* MapViewController.swift */,
+				06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */,
 			);
 			path = Findr;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				996392371B251F9B00CC2A6D /* ViewController.swift in Sources */,
 				996392591B2520D100CC2A6D /* MapViewController.swift in Sources */,
+				06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */,
 				996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
