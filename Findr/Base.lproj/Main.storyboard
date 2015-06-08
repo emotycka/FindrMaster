@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dAW-2D-PjS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AAJ-Hf-dWD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="HoX-gt-8xi">
             <objects>
-                <viewController id="dAW-2D-PjS" customClass="ViewController" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeStoryboard" title="Home" id="dAW-2D-PjS" customClass="ViewController" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2u1-7E-MfL"/>
                         <viewControllerLayoutGuide type="bottom" id="mfx-NJ-XS8"/>
@@ -16,70 +17,128 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="findr." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOZ-NM-2lD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="findr." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOZ-NM-2lD">
                                 <rect key="frame" x="191" y="49" width="218" height="96"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="QP9-8a-9hF"/>
+                                    <constraint firstAttribute="height" constant="96" id="dF2-BV-coJ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="shadowOffset" width="3" height="2"/>
+                                <size key="shadowOffset" width="3" height="3"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI3-BT-NTV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI3-BT-NTV">
                                 <rect key="frame" x="231" y="221" width="136" height="67"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="1TI-s8-TB3"/>
+                                    <constraint firstAttribute="height" constant="67" id="ICe-b3-64K"/>
+                                </constraints>
                                 <state key="normal" title="i lost something.">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOW-so-Uok">
-                                <rect key="frame" x="231" y="371" width="136" height="67"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="my lost+found.">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vg-YS-9Pu">
-                                <rect key="frame" x="231" y="296" width="136" height="67"/>
-                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="i found something.">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeY-es-EDd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeY-es-EDd">
                                 <rect key="frame" x="110" y="153" width="380" height="41"/>
-                                <string key="text">lost+found for the next generation.
+                                <string key="text">lost+found, revamped.
 designed by Brown students, for Brown students.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp9-nJ-8Bx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp9-nJ-8Bx">
                                 <rect key="frame" x="264" y="546" width="72" height="34"/>
-                                <color key="backgroundColor" red="0.80581202649999994" green="0.80581202649999994" blue="0.80581202649999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="PSV-kH-tjr"/>
+                                    <constraint firstAttribute="height" constant="34" id="eUj-An-2TW"/>
+                                </constraints>
                                 <state key="normal" title="Logout">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="logoutAction:" destination="dAW-2D-PjS" eventType="touchUpInside" id="vch-t0-Qfa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFN-Jc-zJR">
+                                <rect key="frame" x="231" y="296" width="136" height="67"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="ZWF-gi-wIJ"/>
+                                </constraints>
+                                <state key="normal" title="i found something.">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZa-fc-B6S">
+                                <rect key="frame" x="232" y="371" width="136" height="67"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="NUM-9y-UBD"/>
+                                    <constraint firstAttribute="height" constant="67" id="RUS-xe-dEF"/>
+                                </constraints>
+                                <state key="normal" title="my lost+found.">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cOZ-NM-2lD" firstAttribute="centerX" secondItem="AeY-es-EDd" secondAttribute="centerX" id="2r9-va-MQH"/>
+                            <constraint firstItem="ZI3-BT-NTV" firstAttribute="leading" secondItem="qrB-b2-ZHj" secondAttribute="leading" constant="231" id="6dr-TS-2Ns"/>
+                            <constraint firstItem="cOZ-NM-2lD" firstAttribute="centerX" secondItem="qrB-b2-ZHj" secondAttribute="centerX" id="6lv-cI-Ql5"/>
+                            <constraint firstItem="dZa-fc-B6S" firstAttribute="top" secondItem="aFN-Jc-zJR" secondAttribute="bottom" constant="8" symbolic="YES" id="8AI-O0-RuF"/>
+                            <constraint firstItem="AeY-es-EDd" firstAttribute="top" secondItem="cOZ-NM-2lD" secondAttribute="bottom" constant="8" symbolic="YES" id="9j3-ks-j3z"/>
+                            <constraint firstItem="cOZ-NM-2lD" firstAttribute="top" secondItem="qrB-b2-ZHj" secondAttribute="topMargin" constant="49" id="ERx-OF-1ci"/>
+                            <constraint firstItem="aFN-Jc-zJR" firstAttribute="top" secondItem="ZI3-BT-NTV" secondAttribute="bottom" constant="8" symbolic="YES" id="RlJ-SM-B4i"/>
+                            <constraint firstItem="dZa-fc-B6S" firstAttribute="centerX" secondItem="vp9-nJ-8Bx" secondAttribute="centerX" id="ZFP-vL-nlH"/>
+                            <constraint firstItem="ZI3-BT-NTV" firstAttribute="top" secondItem="AeY-es-EDd" secondAttribute="bottom" constant="27" id="c24-CR-h8F"/>
+                            <constraint firstAttribute="bottom" secondItem="vp9-nJ-8Bx" secondAttribute="bottom" constant="20" symbolic="YES" id="dAB-cv-k41"/>
+                            <constraint firstItem="AeY-es-EDd" firstAttribute="centerX" secondItem="dZa-fc-B6S" secondAttribute="centerX" id="ffY-S5-w1Q"/>
+                            <constraint firstItem="aFN-Jc-zJR" firstAttribute="trailing" secondItem="ZI3-BT-NTV" secondAttribute="trailing" id="hif-Oq-7yX"/>
+                            <constraint firstItem="ZI3-BT-NTV" firstAttribute="leading" secondItem="aFN-Jc-zJR" secondAttribute="leading" id="ubo-vA-Sic"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="XcH-sZ-lAu"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="goto_map" id="LgT-RG-RW0"/>
-                        <segue destination="ikd-af-Aag" kind="presentation" identifier="goto_login" id="lrG-bG-q1e"/>
+                        <segue destination="ikd-af-Aag" kind="presentation" identifier="goto_login" id="TYT-VR-Fxd"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="goto_map" id="9Kl-Dv-AMo"/>
+                        <segue destination="6qQ-cS-dEj" kind="unwind" identifier="dismissLogin" unwindAction="unwindSegueToHome:" id="4HG-Gt-CJV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sj0-UL-IQQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="6qQ-cS-dEj" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-464" y="327"/>
+            <point key="canvasLocation" x="-421" y="263"/>
         </scene>
-        <!--LoginVC-->
+        <!--Login-->
         <scene sceneID="6hH-Xo-xsB">
             <objects>
-                <viewController id="ikd-af-Aag" customClass="LoginVC" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Login" id="ikd-af-Aag" customClass="LoginVC" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wFg-XM-rBH"/>
                         <viewControllerLayoutGuide type="bottom" id="L9a-0o-pUK"/>
@@ -88,19 +147,64 @@ designed by Brown students, for Brown students.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login to Findr." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW2-gJ-Pae">
-                                <rect key="frame" x="212" y="57" width="237" height="78"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="BROWN EMAIL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FXz-ZV-2qH">
+                                <rect key="frame" x="200" y="247" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eZT-mN-nUC">
+                                <rect key="frame" x="200" y="285" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CONFIRM PASSWORD" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pgl-Ar-ztE">
+                                <rect key="frame" x="200" y="323" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZA-RT-32z">
+                                <rect key="frame" x="269" y="361" width="63" height="31"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginTapped:" destination="ikd-af-Aag" eventType="touchUpInside" id="aeV-QG-F0B"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1u-uP-jak">
+                                <rect key="frame" x="23" y="178" width="554" height="61"/>
+                                <string key="text">Please enter your Brown email and a password to 
+create an account.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign up for findr." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyQ-iI-i3E">
+                                <rect key="frame" x="105" y="74" width="391" height="96"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="Pgl-Ar-ztE" id="WcQ-yv-tnT"/>
+                        <outlet property="createInfoLabel" destination="z1u-uP-jak" id="BrK-oC-dEQ"/>
+                        <outlet property="loginButton" destination="NZA-RT-32z" id="edn-Hm-5PQ"/>
+                        <outlet property="loginTitle" destination="yyQ-iI-i3E" id="16K-2f-83f"/>
+                        <outlet property="passwordTextField" destination="eZT-mN-nUC" id="yZ5-iP-bbl"/>
+                        <outlet property="usernameTextField" destination="FXz-ZV-2qH" id="fvT-zZ-kDn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDr-5z-pte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-616" y="1153"/>
+            <point key="canvasLocation" x="-421" y="1028"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -115,7 +219,7 @@ designed by Brown students, for Brown students.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uPW-dJ-sgU">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="35" width="600" height="600"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="TyR-D9-ndF" appends="YES" id="yyl-Rj-lWp"/>
@@ -135,7 +239,25 @@ designed by Brown students, for Brown students.</string>
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="279" y="327"/>
+            <point key="canvasLocation" x="227" y="263"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Ox-z0-vZr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AAJ-Hf-dWD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NLZ-Zp-iZe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dAW-2D-PjS" kind="relationship" relationship="rootViewController" id="cYz-R9-Az9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW0-Dc-VsJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1095" y="263"/>
         </scene>
     </scenes>
 </document>

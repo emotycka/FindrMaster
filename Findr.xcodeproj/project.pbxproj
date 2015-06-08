@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		060AA4D71B26112B00439684 /* ItemInfoBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4D61B26112B00439684 /* ItemInfoBundle.swift */; };
+		060AA4DB1B261C2200439684 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4DA1B261C2200439684 /* KeychainWrapper.m */; };
 		06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
@@ -30,6 +32,10 @@
 
 /* Begin PBXFileReference section */
 		04A2F3FD744C2859D1A76BB0 /* Pods-Findr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.release.xcconfig"; sourceTree = "<group>"; };
+		060AA4D61B26112B00439684 /* ItemInfoBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemInfoBundle.swift; path = ../ItemInfoBundle.swift; sourceTree = "<group>"; };
+		060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
+		060AA4D91B261C2200439684 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		060AA4DA1B261C2200439684 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		31FF6F2519ED13D71C62EBF8 /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
 		9963922F1B251F9B00CC2A6D /* Findr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,14 +102,13 @@
 		996392311B251F9B00CC2A6D /* Findr */ = {
 			isa = PBXGroup;
 			children = (
-				996392341B251F9B00CC2A6D /* AppDelegate.swift */,
+				060AA4D61B26112B00439684 /* ItemInfoBundle.swift */,
 				996392361B251F9B00CC2A6D /* ViewController.swift */,
 				996392381B251F9B00CC2A6D /* Main.storyboard */,
-				9963923B1B251F9B00CC2A6D /* Images.xcassets */,
-				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
-				996392321B251F9B00CC2A6D /* Supporting Files */,
 				996392581B2520D100CC2A6D /* MapViewController.swift */,
 				06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */,
+				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
+				996392321B251F9B00CC2A6D /* Supporting Files */,
 			);
 			path = Findr;
 			sourceTree = "<group>";
@@ -111,7 +116,12 @@
 		996392321B251F9B00CC2A6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				060AA4D91B261C2200439684 /* KeychainWrapper.h */,
+				060AA4DA1B261C2200439684 /* KeychainWrapper.m */,
+				9963923B1B251F9B00CC2A6D /* Images.xcassets */,
+				996392341B251F9B00CC2A6D /* AppDelegate.swift */,
 				996392331B251F9B00CC2A6D /* Info.plist */,
+				060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -280,6 +290,8 @@
 				996392371B251F9B00CC2A6D /* ViewController.swift in Sources */,
 				996392591B2520D100CC2A6D /* MapViewController.swift in Sources */,
 				06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */,
+				060AA4DB1B261C2200439684 /* KeychainWrapper.m in Sources */,
+				060AA4D71B26112B00439684 /* ItemInfoBundle.swift in Sources */,
 				996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,9 +422,12 @@
 			baseConfigurationReference = 31FF6F2519ED13D71C62EBF8 /* Pods-Findr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -421,9 +436,11 @@
 			baseConfigurationReference = 04A2F3FD744C2859D1A76BB0 /* Pods-Findr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Findr/Findr-Bridging-Header.h";
 			};
 			name = Release;
 		};
