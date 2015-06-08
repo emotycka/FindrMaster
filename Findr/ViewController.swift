@@ -12,6 +12,7 @@ import CoreData
 class ViewController: UIViewController {
 
    
+    @IBOutlet var homeView: UIView!
     
     var isAuthenticated = false
     
@@ -49,28 +50,32 @@ class ViewController: UIViewController {
         }
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
     override func viewDidAppear(animated: Bool) {
         
         super.viewDidAppear(false)
         self.showLoginView()
     }
 
-    func showLoginView() {
-
-        if !isAuthenticated {
-            self.performSegueWithIdentifier("goto_login", sender: self)
-        }
-    }
-
 
     @IBAction func unwindSegueToHome(segue: UIStoryboardSegue){
+        isAuthenticated = true
+        view.alpha = 1.0
         
     }
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func showLoginView() {
+        
+        if !isAuthenticated {
+            self.performSegueWithIdentifier("goto_login", sender: self)
+        }
     }
 
 

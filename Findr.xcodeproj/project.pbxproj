@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		060AA4D71B26112B00439684 /* ItemInfoBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4D61B26112B00439684 /* ItemInfoBundle.swift */; };
 		060AA4DB1B261C2200439684 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4DA1B261C2200439684 /* KeychainWrapper.m */; };
+		068771911B263C1B00F7DBAD /* WhatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068771901B263C1B00F7DBAD /* WhatVC.swift */; };
 		06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		060AA4D81B261C2100439684 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
 		060AA4D91B261C2200439684 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		060AA4DA1B261C2200439684 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		068771901B263C1B00F7DBAD /* WhatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatVC.swift; sourceTree = "<group>"; };
 		06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		31FF6F2519ED13D71C62EBF8 /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
 		9963922F1B251F9B00CC2A6D /* Findr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				996392381B251F9B00CC2A6D /* Main.storyboard */,
 				996392581B2520D100CC2A6D /* MapViewController.swift */,
 				06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */,
+				068771901B263C1B00F7DBAD /* WhatVC.swift */,
 				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
 				996392321B251F9B00CC2A6D /* Supporting Files */,
 			);
@@ -292,6 +295,7 @@
 				06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */,
 				060AA4DB1B261C2200439684 /* KeychainWrapper.m in Sources */,
 				060AA4D71B26112B00439684 /* ItemInfoBundle.swift in Sources */,
+				068771911B263C1B00F7DBAD /* WhatVC.swift in Sources */,
 				996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
