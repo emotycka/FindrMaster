@@ -8,6 +8,8 @@
 
 import UIKit
 import GoogleMaps
+import Parse
+
 
 
 @UIApplicationMain
@@ -23,6 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         GMSServices.provideAPIKey("AIzaSyBoSvAPPLkuQ5iGY6lzsESmGW8JMXXg8Hg")
         Parse.setApplicationId("Cyt7J27N9TSdnSXaYQ1vT4Ea362T90o9KYZs0rxG", clientKey: "nNUsAFdHwqvzh126UqqGT7g78YPwrEg8eiNue4OT")
+        PFUser.enableAutomaticUser()
+        
+        var defaultACL = PFACL()
+        
+        defaultACL.setPublicReadAccess(true)
+        PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
+        
+        
         
         return true
     }

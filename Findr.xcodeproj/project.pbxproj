@@ -73,6 +73,11 @@
 		99B471E21B264C1500A95099 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		99B471E41B264C1B00A95099 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Findr-Bridging-Header.h"; sourceTree = "<group>"; };
+		99B471EB1B26632200A95099 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		99B471ED1B26633200A95099 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		99B471EF1B2663E000A95099 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = ../ParseCrashReporting.framework; sourceTree = "<group>"; };
+		99B471F01B2663E000A95099 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = ../ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		99B471F31B2663EC00A95099 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = ../ParseUI.framework; sourceTree = "<group>"; };
 		E324AB4208A117F2B2378CB9 /* libPods-Findr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Findr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,6 +170,11 @@
 		996392321B251F9B00CC2A6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99B471ED1B26633200A95099 /* Bolts.framework */,
+				99B471EB1B26632200A95099 /* Parse.framework */,
+				99B471F31B2663EC00A95099 /* ParseUI.framework */,
+				99B471EF1B2663E000A95099 /* ParseCrashReporting.framework */,
+				99B471F01B2663E000A95099 /* ParseFacebookUtils.framework */,
 				060AA4D91B261C2200439684 /* KeychainWrapper.h */,
 				060AA4DA1B261C2200439684 /* KeychainWrapper.m */,
 				9963923B1B251F9B00CC2A6D /* Images.xcassets */,
@@ -475,6 +485,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+					"$(PROJECT_DIR)/Findr",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -557,6 +568,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+					"$(PROJECT_DIR)/Findr",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
