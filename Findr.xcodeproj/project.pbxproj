@@ -484,8 +484,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/elimotycka/Downloads/parse-library-1.7.4",
 					"$(PROJECT_DIR)/Findr",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+					"$(SRCROOT)/Findr/Frameworks",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -567,8 +568,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"/Users/elimotycka/Downloads/parse-library-1.7.4",
 					"$(PROJECT_DIR)/Findr",
+					"/Users/elimotycka/Downloads/parse-library-1.7.4",
+					"$(SRCROOT)/Findr/Frameworks",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
