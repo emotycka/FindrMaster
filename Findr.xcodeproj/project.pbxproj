@@ -12,6 +12,8 @@
 		068771911B263C1B00F7DBAD /* WhatTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068771901B263C1B00F7DBAD /* WhatTableVC.swift */; };
 		06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */; };
 		95B24870C5FEB010D59909B9 /* libPods-Findr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E324AB4208A117F2B2378CB9 /* libPods-Findr.a */; };
+		99236F2A1B277B0200437396 /* WhatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99236F291B277B0200437396 /* WhatTableViewCell.swift */; };
+		99236F2C1B278D3200437396 /* WhatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99236F2B1B278D3200437396 /* WhatTableViewController.swift */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
 		9963923A1B251F9B00CC2A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996392381B251F9B00CC2A6D /* Main.storyboard */; };
@@ -50,6 +52,8 @@
 		068771901B263C1B00F7DBAD /* WhatTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatTableVC.swift; sourceTree = "<group>"; };
 		06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		31FF6F2519ED13D71C62EBF8 /* Pods-Findr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Findr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Findr/Pods-Findr.debug.xcconfig"; sourceTree = "<group>"; };
+		99236F291B277B0200437396 /* WhatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatTableViewCell.swift; sourceTree = "<group>"; };
+		99236F2B1B278D3200437396 /* WhatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatTableViewController.swift; sourceTree = "<group>"; };
 		9963922F1B251F9B00CC2A6D /* Findr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996392331B251F9B00CC2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996392341B251F9B00CC2A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,9 +164,11 @@
 				996392581B2520D100CC2A6D /* MapViewController.swift */,
 				06ECFFFF1B26079C00F2BCB8 /* LoginVC.swift */,
 				068771901B263C1B00F7DBAD /* WhatTableVC.swift */,
+				99236F291B277B0200437396 /* WhatTableViewCell.swift */,
 				9963923D1B251F9B00CC2A6D /* LaunchScreen.xib */,
 				996392321B251F9B00CC2A6D /* Supporting Files */,
 				99B471E61B264D1700A95099 /* Findr-Bridging-Header.h */,
+				99236F2B1B278D3200437396 /* WhatTableViewController.swift */,
 			);
 			path = Findr;
 			sourceTree = "<group>";
@@ -344,6 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99236F2C1B278D3200437396 /* WhatTableViewController.swift in Sources */,
+				99236F2A1B277B0200437396 /* WhatTableViewCell.swift in Sources */,
 				996392371B251F9B00CC2A6D /* ViewController.swift in Sources */,
 				996392591B2520D100CC2A6D /* MapViewController.swift in Sources */,
 				06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */,
@@ -486,7 +494,6 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Findr",
 					"/Users/elimotycka/Downloads/parse-library-1.7.4",
-					"$(SRCROOT)/Findr/Frameworks",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -570,7 +577,6 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Findr",
 					"/Users/elimotycka/Downloads/parse-library-1.7.4",
-					"$(SRCROOT)/Findr/Frameworks",
 				);
 				INFOPLIST_FILE = Findr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

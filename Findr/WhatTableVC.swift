@@ -8,12 +8,11 @@
 
 import UIKit
 
-class WhatTableVC: UITableViewController {
+class WhatTableVC: UIViewController {
 
     @IBOutlet weak var whatTitleLabel: UILabel!
     
-    @IBOutlet weak var whatTable: UITableView!
-    
+    @IBOutlet weak var ContainerForWhatTableView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
