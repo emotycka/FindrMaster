@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WhatVC: UIViewController, UITableViewController {
+class WhatTableVC: UITableViewController {
 
     @IBOutlet weak var whatTitleLabel: UILabel!
     
