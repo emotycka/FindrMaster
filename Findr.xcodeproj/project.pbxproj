@@ -22,6 +22,7 @@
 		99236F6F1B27BC1600437396 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 060AA4DA1B261C2200439684 /* KeychainWrapper.m */; };
 		99236F711B27BD3100437396 /* TableVCEital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99236F701B27BD3100437396 /* TableVCEital.swift */; };
 		99236F731B27C12000437396 /* LostItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99236F721B27C12000437396 /* LostItems.swift */; };
+		99236F771B27EACE00437396 /* CloudMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99236F761B27EACE00437396 /* CloudMatching.swift */; };
 		996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392341B251F9B00CC2A6D /* AppDelegate.swift */; };
 		996392371B251F9B00CC2A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996392361B251F9B00CC2A6D /* ViewController.swift */; };
 		9963923A1B251F9B00CC2A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996392381B251F9B00CC2A6D /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		99236F6D1B27BAE500437396 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		99236F701B27BD3100437396 /* TableVCEital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVCEital.swift; sourceTree = "<group>"; };
 		99236F721B27C12000437396 /* LostItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostItems.swift; sourceTree = "<group>"; };
+		99236F761B27EACE00437396 /* CloudMatching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudMatching.swift; sourceTree = "<group>"; };
 		9963922F1B251F9B00CC2A6D /* Findr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		996392331B251F9B00CC2A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996392341B251F9B00CC2A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				99236F621B27B56400437396 /* ParseFacebookUtils.framework */,
 				99236F641B27B56400437396 /* ParseUI.framework */,
 				996392341B251F9B00CC2A6D /* AppDelegate.swift */,
+				99236F761B27EACE00437396 /* CloudMatching.swift */,
 				996392361B251F9B00CC2A6D /* ViewController.swift */,
 				996392381B251F9B00CC2A6D /* Main.storyboard */,
 				99236F701B27BD3100437396 /* TableVCEital.swift */,
@@ -380,6 +383,7 @@
 				996392371B251F9B00CC2A6D /* ViewController.swift in Sources */,
 				99236F711B27BD3100437396 /* TableVCEital.swift in Sources */,
 				996392591B2520D100CC2A6D /* MapViewController.swift in Sources */,
+				99236F771B27EACE00437396 /* CloudMatching.swift in Sources */,
 				06EC00001B26079C00F2BCB8 /* LoginVC.swift in Sources */,
 				068771911B263C1B00F7DBAD /* WhatTableVC.swift in Sources */,
 				996392351B251F9B00CC2A6D /* AppDelegate.swift in Sources */,
