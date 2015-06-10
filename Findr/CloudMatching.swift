@@ -35,7 +35,7 @@ class CloudMatching{
             
             //var stringEmailArray = emailArray.filter{ $0 != nil }.map{ $0! }
             
-            return emailArray
+            return emailStrings
             
         }
             
@@ -54,8 +54,7 @@ class CloudMatching{
             
             //var stringEmailArray = emailArray.filter{ $0 != nil }.map{ $0! }
             
-            return emailArray
-            
+            return emailStrings
         }
     }
     
