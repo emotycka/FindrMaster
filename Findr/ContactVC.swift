@@ -8,9 +8,6 @@
 
 import UIKit
 
-var final2 : FinalPost = final
-
-
 class ContactVC: UIViewController {
 
     @IBOutlet weak var contactName: UITextField!
@@ -21,7 +18,7 @@ class ContactVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        contactEmail.placeholder = final.emailName
+        contactEmail.text = final.emailName
 
         // Do any additional setup after loading the view.
     }
@@ -32,10 +29,10 @@ class ContactVC: UIViewController {
     }
     
     @IBAction func showDaPostTapped(sender: UIButton) {
-            final3 = final2
-        final3.personName = contactName.text
-        final3.emailName = contactEmail.text
-        final3.phone = contactNumber.text
+        
+        final.personName = contactName.text
+        final.emailName = contactEmail.text
+        final.phone = contactNumber.text
         
         performSegueWithIdentifier("goto_final", sender: sender)
     }

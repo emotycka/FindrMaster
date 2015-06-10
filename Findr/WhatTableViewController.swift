@@ -8,21 +8,17 @@
 
 import UIKit
 
-var final0 : FinalPost = FinalPost()
+var final : FinalPost = FinalPost()
 
 class WhatTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate {
     
     var lostitems = [LostItems]()
     var filteredItems = [LostItems]()
-    //var finalPost = FinalPost()
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let recognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "swipeLeft:")
-//        recognizer.direction = .Left
-//        self.view.addGestureRecognizer(recognizer)
         
         self.lostitems = [LostItems(category:"Keys", name:"House Keys"),
             LostItems(category:"Keys", name:"Car Keys"),

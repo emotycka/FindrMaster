@@ -8,8 +8,6 @@
 
 import UIKit
 
-var final : FinalPost = final0
-
 class WhereVC: UIViewController {
 
     override func viewDidLoad() {
@@ -27,7 +25,6 @@ class WhereVC: UIViewController {
     
     @IBAction func clickHereTapped(sender: UIButton) {
         
-        final2 = final
         performSegueWithIdentifier("goto_contact", sender: sender)
     }
 
