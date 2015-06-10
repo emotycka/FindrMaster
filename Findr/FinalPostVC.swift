@@ -15,6 +15,7 @@ class FinalPostVC: UIViewController {
     
     @IBAction func createButton(sender: UIButton) {
         var lostPost = PFObject(className: "endLost")
+        var matcher = CloudMatching()
         lostPost["itemLost"] = final.itemName
         lostPost["emailLost"] = final.emailName
         lostPost.saveInBackgroundWithBlock{(success: Bool, error: NSError?)-> Void in if (success){
@@ -27,7 +28,7 @@ class FinalPostVC: UIViewController {
         
         }
         var findrs = [AnyObject?]()
-        //findrs = cloudMatcher.findMatches(final.itemName!)
+        findrs = matcher.findMatches(final.itemName!, Findr: false)
         println(findrs)
         println("itemName is \(final.itemName)")
        
