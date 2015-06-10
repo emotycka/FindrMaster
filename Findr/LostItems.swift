@@ -9,6 +9,6 @@
 import Foundation
 
 struct LostItems{
-    let category:String
+    let category: String
     let name: String
 }
