@@ -12,8 +12,8 @@
 
 
 
-#ifndef Findr_Findr_Bridging_Header_h
-#define Findr_Findr_Bridging_Header_h
+//#ifndef Findr_Findr_Bridging_Header_h
+//#define Findr_Findr_Bridging_Header_h
 
 
-#endif
+//#endif

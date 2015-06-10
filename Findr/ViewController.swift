@@ -26,9 +26,10 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func lostTapped(sender: UIButton) {
-        performSegueWithIdentifier("goto_what",sender:self)
-    }
+//    @IBAction func lostTapped(sender: UIButton) {
+//        performSegueWithIdentifier("goto_what",sender:self)
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

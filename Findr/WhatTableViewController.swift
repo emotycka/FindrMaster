@@ -9,10 +9,14 @@
 import UIKit
 
 class WhatTableViewController: UITableViewController {
-
+    
+    var losts = [LostItems]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        
+//        self.losts = [LostItems(Category: "Keys", name: "House Keys"), LostItems(Category:"Keys", name: "Car Keys")]
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

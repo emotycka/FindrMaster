@@ -5,7 +5,7 @@
 //  Created by Eli Motycka on 6/7/15.
 //  Copyright (c) 2015 Findr Team. All rights reserved.
 //
-
+/*
 import UIKit
 import MapKit
 import GoogleMaps
@@ -46,3 +46,5 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     */
 
 }
+
+*/

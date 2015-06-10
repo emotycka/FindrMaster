@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import GoogleMaps
+//import GoogleMaps
 import Parse
 
 
@@ -23,19 +23,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        GMSServices.provideAPIKey("AIzaSyBoSvAPPLkuQ5iGY6lzsESmGW8JMXXg8Hg")
+        //GMSServices.provideAPIKey("AIzaSyBoSvAPPLkuQ5iGY6lzsESmGW8JMXXg8Hg")
         Parse.setApplicationId("Cyt7J27N9TSdnSXaYQ1vT4Ea362T90o9KYZs0rxG", clientKey: "nNUsAFdHwqvzh126UqqGT7g78YPwrEg8eiNue4OT")
-        PFUser.enableAutomaticUser()
+       
+       
         
-        var defaultACL = PFACL()
+        //PFUser.enableAutomaticUser()
+    
+    
+        //var defaultACL = PFACL()
         
-        defaultACL.setPublicReadAccess(true)
-        PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
+        //defaultACL.setPublicReadAccess(true)
+        //PFACL.setDefaultACL(defaultACL, withAccessForCurrentUser: true)
         
         
         
-        return true
-    }
+       return true
+}
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
