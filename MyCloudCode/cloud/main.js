@@ -6,3 +6,13 @@ Parse.Cloud.define("hello", function(request, response) {
 });
 
 
+
+
+
+Parse.Cloud.run('hello', {}, {
+  success: function(result) {
+    // result is 'Hello world!'
+  },
+  error: function(error) {
+  }
+});
