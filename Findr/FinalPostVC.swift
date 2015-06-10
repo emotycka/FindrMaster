@@ -27,7 +27,7 @@ class FinalPostVC: UIViewController {
         
         
         }
-        var findrs = [AnyObject?]()
+        var findrs = [AnyObject]()
         findrs = matcher.findMatches(final.itemName!, Findr: false)
         println(findrs)
         println("itemName is \(final.itemName)")

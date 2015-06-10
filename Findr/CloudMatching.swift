@@ -16,7 +16,7 @@ class CloudMatching{
     }
     
     
-    func findMatches(Item: String!, Findr: Bool)->[AnyObject?]{
+    func findMatches(Item: String, Findr: Bool)->[AnyObject]{
         //in the case that you found something
         if(Findr){
             
