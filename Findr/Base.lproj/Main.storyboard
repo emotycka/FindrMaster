@@ -754,9 +754,6 @@ create an account.</string>
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="55P-fT-uCN" kind="show" id="CI2-Pd-po7"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -766,6 +763,7 @@ create an account.</string>
                     </tableView>
                     <connections>
                         <outlet property="searchDisplayController" destination="sBh-Tg-77o" id="fWT-ll-QyE"/>
+                        <segue destination="55P-fT-uCN" kind="show" identifier="goto_where" id="bpd-xk-xgR"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWp-DY-xmx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -777,18 +775,14 @@ create an account.</string>
                         <outlet property="searchResultsDelegate" destination="mtN-yA-ect" id="VU6-o8-JBY"/>
                     </connections>
                 </searchDisplayController>
-                <swipeGestureRecognizer direction="right" id="lJM-yP-NYr">
-                    <connections>
-                        <segue destination="55P-fT-uCN" kind="show" id="SSu-P2-mxk"/>
-                    </connections>
-                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="lJM-yP-NYr"/>
             </objects>
             <point key="canvasLocation" x="142" y="1014"/>
         </scene>
-        <!--View Controller-->
+        <!--WhereVC-->
         <scene sceneID="ffy-Am-HaL">
             <objects>
-                <viewController id="55P-fT-uCN" sceneMemberID="viewController">
+                <viewController id="55P-fT-uCN" customClass="WhereVC" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zqx-ia-e2p"/>
                         <viewControllerLayoutGuide type="bottom" id="Pjt-nr-2s8"/>
@@ -817,7 +811,7 @@ create an account.</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iHs-Gn-Hy6" kind="show" id="mZa-oz-gEZ"/>
+                                    <action selector="clickHereTapped:" destination="55P-fT-uCN" eventType="touchUpInside" id="cXB-Do-Kiz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -832,16 +826,16 @@ create an account.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vnm-LT-ydz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="9hI-nH-gY9">
                     <connections>
-                        <segue destination="iHs-Gn-Hy6" kind="push" identifier="toContact" id="u8Q-rX-V81"/>
+                        <segue destination="iHs-Gn-Hy6" kind="push" identifier="goto_contact" id="u8Q-rX-V81"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="842" y="1014"/>
         </scene>
-        <!--View Controller-->
+        <!--ContactVC-->
         <scene sceneID="QVv-YM-iyL">
             <objects>
-                <viewController id="iHs-Gn-Hy6" sceneMemberID="viewController">
+                <viewController id="iHs-Gn-Hy6" customClass="ContactVC" customModule="Findr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NPe-Nc-OyC"/>
                         <viewControllerLayoutGuide type="bottom" id="wbi-Yb-Tdb"/>
@@ -900,22 +894,24 @@ contact you?</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Sz5-DP-bg4" kind="show" id="x5T-f1-4QN"/>
+                                    <action selector="showDaPostTapped:" destination="iHs-Gn-Hy6" eventType="touchUpInside" id="cGs-up-TPS"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VJt-MN-7Ql"/>
+                    <connections>
+                        <outlet property="contactEmail" destination="Gj5-hL-UhG" id="Ymm-Hf-xzz"/>
+                        <outlet property="contactName" destination="2go-qT-Sr6" id="hif-Ph-vfF"/>
+                        <outlet property="contactNumber" destination="YIL-Vu-4x4" id="Oie-sr-4vh"/>
+                        <segue destination="Sz5-DP-bg4" kind="show" identifier="goto_final" id="Aje-zd-CoM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xcK-Db-MZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="sDe-fm-IXq">
-                    <connections>
-                        <segue destination="Sz5-DP-bg4" kind="push" id="rPW-Qg-Mgu"/>
-                    </connections>
-                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="sDe-fm-IXq"/>
             </objects>
-            <point key="canvasLocation" x="1511" y="1027"/>
+            <point key="canvasLocation" x="1806" y="1052"/>
         </scene>
         <!--Final PostVC-->
         <scene sceneID="AJl-fX-Z2j">
@@ -969,7 +965,7 @@ post will appear to Findrs:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUY-6s-YXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2379" y="1093"/>
+            <point key="canvasLocation" x="2384" y="1041"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Q59-xe-cEj">
@@ -1038,9 +1034,4 @@ post will appear to Findrs:</string>
             <point key="canvasLocation" x="-1095" y="263"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="x5T-f1-4QN"/>
-        <segue reference="u8Q-rX-V81"/>
-        <segue reference="SSu-P2-mxk"/>
-    </inferredMetricsTieBreakers>
 </document>

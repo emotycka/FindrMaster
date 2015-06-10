@@ -8,11 +8,13 @@
 
 import UIKit
 
+var final0 : FinalPost = FinalPost()
+
 class WhatTableViewController: UITableViewController, UISearchBarDelegate, UISearchDisplayDelegate, UITableViewDataSource, UITableViewDelegate {
     
     var lostitems = [LostItems]()
     var filteredItems = [LostItems]()
-    var finalPost = FinalPost()
+    //var finalPost = FinalPost()
 
     
     override func viewDidLoad() {
@@ -108,10 +110,17 @@ class WhatTableViewController: UITableViewController, UISearchBarDelegate, UISea
         println("You selected cell #\(indexPath.row)!")
         
         // Get Cell Label
-        let indexPath = tableView.indexPathForSelectedRow();
-        let currentCell = tableView.cellForRowAtIndexPath(indexPath!) as UITableViewCell!;
-        let cellString = "\(currentCell)"
-        finalPost.itemName = cellString
+//        let indexPath = tableView.indexPathForSelectedRow();
+        let currentCell = tableView.cellForRowAtIndexPath(indexPath) as UITableViewCell!;
+//        let cellString = "\(currentCell)"
+        //finalPost.itemName = cellString
+        
+//        final0.itemName = lostitems[indexPath.row].name
+//        
+        final.itemName = lostitems[indexPath.row].name
+        
+        performSegueWithIdentifier("goto_where", sender: currentCell)
+        
 ////
 //        let storyboard = UIStoryboard(name: "FinalPostStoryboard", bundle: nil)
 //        var viewController = storyboard.instantiateViewControllerWithIdentifier("FinalPostVC") as! FinalPostVC!

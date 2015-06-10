@@ -106,6 +106,7 @@ class LoginVC: UIViewController {
     func checkLogin(username: String, password: String ) -> Bool {
         if password == MyKeychainWrapper.myObjectForKey("v_Data") as? String &&
             username == NSUserDefaults.standardUserDefaults().valueForKey("username") as? String {
+                final.emailName = username
                 return true
         } else {
             return false

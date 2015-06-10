@@ -10,6 +10,9 @@ import Foundation
 
 class FinalPost {
     var personName: String?
+    var phone : String?
+    var emailName : String?
+    var extraInfo : String?
     var itemName : String?
     var latitude : Double?
     var longitude: Double?
@@ -17,6 +20,9 @@ class FinalPost {
     init(){
         personName = "YOOOOOOO"
         itemName = "EITAL"
+        extraInfo = ""
+        emailName = ""
+        phone = nil
         latitude = nil
         longitude = nil
     }
